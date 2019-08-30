@@ -1,17 +1,21 @@
+# import matplotlib to plot the stock we pick
 import matplotlib.pyplot as plt
+
+# import pandas_datareader for getting the stock price data from Yahoo
 from pandas_datareader import data
 
+# define a function 
 def plot_stock(stock_quote, start_date, end_date):
     
     '''
-    
     stock_quote: a list of stock quote you want to plot
+        e.g. 'CRM' for Salesforce for  a single stock, you can pass a list which contains multiple stock like ['AAPL','CRM','TSLA']
     
-    start_date: the starting date of stock price data extracted
-        please follow the ISO 0861 standard like 'YYYY-MM-DD'
+    start_date: the first trade date on which stock price data will be downloaded 
+        please follow the ISO 0861 format - 'YYYY-MM-DD'
     
-    end_date: the last date of stock price data extracted
-        please follow the ISO 0861 standard like 'YYYY-MM-DD'
+    end_date: the last trade date on which stock price data will be downloaded
+        please follow the ISO 0861 format - 'YYYY-MM-DD'
     '''
     
     # Create a figure first
@@ -22,15 +26,17 @@ def plot_stock(stock_quote, start_date, end_date):
     
     for stock in stock_quote:
         
-        # extract data from stock_quote
+        # download data from by passing stock quote
+        # (e.g 'CRM' for Salesforce, start_date = '2019-01-01', end_data = '2019-10-01')
         stock_data = data.get_data_yahoo(stock, start = start_date, end = end_date)
         
         # plot to stock chart
         ax.plot(stock_data.index, stock_data['Adj Close'], label = stock)
     
-        # set x and y label, and also the text properties
+    # set x and y label, and also the text properties：fontszie
     font = {'size': 16}
     
+    # Set the  ylabel of the chart, and fontsize
     ax.set_ylabel(stock_data[['Adj Close']].columns[0], fontdict = font)
     
     ax.set_xlabel(stock_data.index.name, fontdict = font)
@@ -41,6 +47,7 @@ def plot_stock(stock_quote, start_date, end_date):
     # add legend outside the plot
     ax.legend(bbox_to_anchor = (1.1,0.95))
     
+    # set the chart style, I love ggplot, how about you.
     plt.style.use("ggplot")
     
     plt.show()
