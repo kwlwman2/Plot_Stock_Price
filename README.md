@@ -75,12 +75,17 @@ def plot_stock(stock_quote, start_date, end_date):
 plot_stock(['CRM','AAPL','TWTR'], '2009-01-01','2019-01-01')
 
 ```
-  You can just copy this code and have a try in your Python IDE, please make sure that you have installed
-matplotlib and pandas_datareader if not, you can just simply copy and paste this command to your Mac terminal
+  You can just copy these codes and have a try in your Python IDE, please make sure that you have installed
+both matplotlib and pandas_datareader. If not, you can just simply copy and paste this command to your Mac terminal
 
 ```bat
 pip install matplotlib
 pip install pandas_datareader 
 ```
 
+  Here are the results after running the python scripts
+
 ![Result](https://raw.githubusercontent.com/kwlwman2/Plot_Stock_Price/master/Result.png)
+
+## Limitations & Improvement
+  The chart is very simple and easy to read. However, I will try to add more powerful functions like interactive interface, and scroll bar, which is used to view days of moving average. Because as you can see, the chart contains many swings, and these ups and downs could be smoothed out by using the concept of moving average. Please stay tuned for my Github. Thank you so much for your patience and time.
