@@ -1,4 +1,6 @@
-# Plot_Stock_Price
+How Plot Your Stock Price
+=========================
+
 To plot stock price
 
   Hello everyone, this is my first project, which is used for ploting several stock charts on the same plot, so we can easily compare trends of different stock over time. I love finance. In particular with finance's perspective, I can comfortably under stand how the world runs, and I also believe, to some extend, our world is capital-drive.
@@ -7,3 +9,7 @@ To plot stock price
 
 Thank you so much and now let's enjoy coding!
 
+```python
+
+
+```
