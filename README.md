@@ -15,7 +15,7 @@ Thank you so much and now let's enjoy coding!
 ## Solution 
   This incentive really drives me to create a chart on which the trading period can be fully *customized* by our investors.
   
-  Actually, the works of writting these codes did not take me too long, I estimated just 3 - 4 nights after all these are all simple codes. I used my own spare time and coffee time (I am extremely fond of and addicited to coffee, T-T) to write these codes. 
+  Actually, the works of writting these codes did not take me too long. I estimated just 3 - 4 nights after all these are all simple codes. I used my own spare time and coffee time (I am extremely fond of and addicited to coffee, T-T) to write these codes. 
 
 ## Code
 ```python
