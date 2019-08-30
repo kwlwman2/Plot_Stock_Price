@@ -10,7 +10,7 @@ To plot stock price
 Thank you so much and now let's enjoy coding!
 
 ## Problem
-  When I was reading stock chart, I found that some of the platform such as Futu, Bloomberg and WSJ, which have already standardized their selections of trading period to 1-year, 3-year and 5-year period. What if I want to view a stock chart, on a very specific trading period. For instance, I want to view stock price trend of Salesforce, starting from June to August because of annoucement of the acquisition of Tableau by Salesforce, and you want to see how investors digest this news afterward, like 2 - 3 months after the deal announced?
+  When I was reading stock chart, I found that some of the platform such as Futu, Bloomberg and WSJ, which have already standardized their selections of trading period to 1-year, 3-year and 5-year period. What if I want to view a stock chart, on a very specific trading period. For instance, I want to view stock price trend of Salesforce, starting from June to August because of annoucement of the acquisition of Tableau by Salesforce, and you want to see how investors digest this news afterward, like 2 to 3 months after the deal announced?
   
 ## Solution 
   This incentive really drives me to create a chart on which the trading period can be fully *customized* by our investors.
