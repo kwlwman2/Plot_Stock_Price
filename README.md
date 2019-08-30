@@ -88,4 +88,4 @@ pip install pandas_datareader
 ![Result](https://raw.githubusercontent.com/kwlwman2/Plot_Stock_Price/master/Result.png)
 
 ## Limitations & Improvement
-  The chart is very simple and easy to read. However, I will try to add more powerful functions like interactive interface, and scroll bar, which is used to view days of moving average. Because as you can see, the chart contains many swings, and these ups and downs could be smoothed out by using the concept of moving average. Please stay tuned for my Github. Thank you so much for your patience and time.
+  The chart is very easy to read. However, and I will try to add more powerful functions like interactive interface, and scroll bar of adjusting the days for moving average, which could smooth out those swings and help us focus on long-term stock trend. Please stay tuned for my Github. Thank you so much for your patience and time.
