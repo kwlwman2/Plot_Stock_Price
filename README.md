@@ -70,3 +70,4 @@ plot_stock(['CRM','AAPL','TWTR'], '2009-01-01','2019-01-01')
 matplotlib and pandas_datareader
 '''
 ```
+![Result](https://raw.githubusercontent.com/kwlwman2/Plot_Stock_Price/master/Result.png)
