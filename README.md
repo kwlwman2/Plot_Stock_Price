@@ -65,5 +65,8 @@ def plot_stock(stock_quote, start_date, end_date):
     plt.show()
    
 plot_stock(['CRM','AAPL','TWTR'], '2009-01-01','2019-01-01')
-
+'''
+# you can just copy this code and have a try in your Python IDE, please make sure that you have installed
+matplotlib and pandas_datareader
+'''
 ```
