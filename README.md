@@ -5,10 +5,19 @@ To plot stock price
 
   Hello everyone, this is my first project, which is used for ploting several stock charts on the same plot, so we can easily compare trends of different stock over time. I love finance. In particular with finance's perspective, I can comfortably under stand how the world runs, and I also believe, to some extend, our world is capital-drive.
 
-  This is just my first project, after 3-month study of Python. If you have anything problems, good suggestions and cool ideas, please feel free to let me know and drop me an email via mankawa343134328@gmail.com. I am very looking forward to see your  valuable comments
+  This is just my first project, after 3-month study of Python. If you have anything problems, good suggestions and cool ideas, please feel free to let me know and drop me an email via mankawa343134328@gmail.com. I am very looking forward to see your valuable comments
 
 Thank you so much and now let's enjoy coding!
 
+## Problem
+  When I was reading stock chart, I found that some of the platform such as Futu, Bloomberg and WSJ, which have already standardized their selections of trading period to 1-year, 3-year and 5-year period. What if I want to view a stock chart, on a very specific trading period. For instance, I want to view stock price trend of Salesforce, starting from June to August because of Salesforce annouce the acquisition of Tableau. 
+  
+## Solution 
+  This incentive really drives me to create a chart on which the trading period can be fully *customized* by our investors.
+  
+  Actually, the works of writting these codes did not take me too long, I estimated just 3 - 4 nights after all these are all simple codes. I used my own spare time and coffee time (I am extremely fond of and addicited to coffee, T-T) to write these codes. 
+
+## Code
 ```python
 # import matplotlib to plot the stock we pick
 import matplotlib.pyplot as plt
