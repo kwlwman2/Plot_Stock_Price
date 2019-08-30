@@ -1,4 +1,4 @@
-How Plot Your Stock Price
+How to Plot Your Stock Price
 =========================
 
 To plot stock price
