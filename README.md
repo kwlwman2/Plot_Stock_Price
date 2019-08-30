@@ -74,8 +74,13 @@ def plot_stock(stock_quote, start_date, end_date):
    
 plot_stock(['CRM','AAPL','TWTR'], '2009-01-01','2019-01-01')
 '''
-# you can just copy this code and have a try in your Python IDE, please make sure that you have installed
-matplotlib and pandas_datareader
+you can just copy this code and have a try in your Python IDE, please make sure that you have installed
+matplotlib and pandas_datareader if not, you can just simply copy and paste this command to your Mac terminal
 '''
 ```
+```bat
+pip install matplotlib
+pip install pandas_datareader 
+```
+
 ![Result](https://raw.githubusercontent.com/kwlwman2/Plot_Stock_Price/master/Result.png)
